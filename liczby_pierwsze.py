@@ -10,6 +10,6 @@ def is_prime_number(number):
 
 input_number = int(input("Wprowadź liczbę: "))
 if is_prime_number(input_number):
-    print("Wprowadzona liczba jest liczbą pierwszą.")
+    print(f"{input_number} jest liczbą pierwszą.")
 else:
-    print("Wprowadzona liczba nie jest liczbą pierwszą.")
+    print(f"{input_number} nie jest liczbą pierwszą.")

@@ -14,6 +14,6 @@ def is_perfect_number(number):
 
 input_number = int(input("Wprowadź liczbę: "))
 if is_perfect_number(input_number):
-    print("Wprowadzona liczba jest liczbą doskonałą.")
+    print(f"{input_number} jest liczbą doskonałą.")
 else:
-    print("Wprowadzona liczba nie jest liczbą doskonałą.")
+    print(f"{input_number} nie jest liczbą doskonałą.")

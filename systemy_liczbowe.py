@@ -55,4 +55,4 @@ output_text = ""
 for number in reversed(output_list):
     output_text += int_to_str[number]
 
-print("Wartość:", output_text)
+print(f"{input_text} w systemie {input_base} to inaczej {output_text} w systemie {output_base}.")

@@ -17,4 +17,7 @@ def euclidean_recur(a, b):
 
 number_a = int(input("Wprowadź liczbę A: "))
 number_b = int(input("Wprowadź liczbę B: "))
-print("NWD liczby A i B wynosi:", euclidean_recur(number_a, number_b))
+result_recur = euclidean_recur(number_a, number_b)
+result_iter = euclidean_iter(number_a, number_b)
+print(f"NWD liczby {number_a} i {number_b} wynosi {result_recur}. -> recur")
+print(f"NWD liczby {number_a} i {number_b} wynosi {result_iter}. -> iter")

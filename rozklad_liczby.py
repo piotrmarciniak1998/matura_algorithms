@@ -14,4 +14,5 @@ def decompose(number):
 
 
 input_number = int(input("Wprowadź liczbę: "))
-print("Dzielniki tej liczby to:", decompose(input_number))
+result = decompose(input_number)
+print(f"Dzielniki {input_number} to: {result}.")
