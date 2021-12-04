@@ -1,11 +1,7 @@
-from math import sqrt
-
-
 def decompose(number):
     denom = 2
-    sqrt_number = sqrt(number)
     output_list = []
-    while number > 1 and denom <= sqrt_number:
+    while number > 1:
         while number % denom == 0:
             output_list.append(denom)
             number /= denom

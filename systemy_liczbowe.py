@@ -40,19 +40,19 @@ input_list = []
 for letter in input_text:
     input_list.append(str_to_int[letter])
 
-input_number = 0
+curr_number = 0
 curr_base = 1
 for number in reversed(input_list):
-    input_number += number * curr_base
+    curr_number += number * curr_base
     curr_base *= input_base
 
 output_list = []
-while input_number > 0:
-    output_list.append(input_number % output_base)
-    input_number //= output_base
+while curr_number > 0:
+    output_list.append(curr_number % output_base)
+    curr_number //= output_base
 
 output_text = ""
 for number in reversed(output_list):
     output_text += int_to_str[number]
 
-print(f"{input_text} w systemie {input_base} to inaczej {output_text} w systemie {output_base}.")
+print(f"{input_text} w systemie {input_base} to {output_text} w systemie {output_base}.")
