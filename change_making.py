@@ -1,4 +1,4 @@
-def return_change(sum_of_money, money_list):
+def change_making(sum_of_money, money_list):
     change = dict()
     for value in money_list:
         if sum_of_money < money_list[-1]:
@@ -12,5 +12,5 @@ def return_change(sum_of_money, money_list):
 
 
 input_number = float(input("Wprowadź kwotę: "))
-result = return_change(input_number, [200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01])
+result = change_making(input_number, [200, 100, 50, 20, 10, 5, 2, 1, 0.5, 0.2, 0.1, 0.05, 0.02, 0.01])
 print(f"Reszta z {input_number} to: {result}.")
