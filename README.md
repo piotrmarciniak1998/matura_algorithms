@@ -11,6 +11,9 @@ This project will consist of various matura (secondary school exit exam) tasks. 
   * `change_making.py` - Change making algorithm implementation.
 2. Search and sort algorithms:
   * `min_max` - Finding minimum and maximum value. Includes optimal - `optimal.py` and sub-optimal - `sub_optimal.py` versions with both iterative and recursive methods.
+  * `sort/bubble.py` - Bubble Sort algorithm implementation.
+  * `sort/select.py` - Select Sort algorithm implementation.
+  * `sort/insert.py` - Insertion Sort algorithm implementation.
 # 📖 Zawartość 🇵🇱
 1. Algorytmy na liczbach całkowitch:
   * `numeral_systems.py` - Zamiana systemu pozycyjnego liczby.
@@ -22,4 +25,6 @@ This project will consist of various matura (secondary school exit exam) tasks. 
   * `change_making.py` - Implementacja algorytmu wydawania reszty.
 2. Algorytmy wyszukiwania i sortowania:
   * `min_max` - Szukanie minimalnej i maksymalnej wartości w zbiorze. Zawiera wersję optymalną - `optimal.py` i nieoptymalną - `sub_optimal.py` z użyciem metody iteracyjnej i rekurencyjnej.
-  
+  * `sort/bubble.py` - Implementacja algorytmu sortowania bąbelkowego.
+  * `sort/select.py` - Implementacja algorytmu sortowania przez wybór.
+  * `sort/insert.py` - Implementacja algorytmu sortowania przez wstawianie.
